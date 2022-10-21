@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400&family=Montserrat:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, main, footer{
+    width: 100vw;
+}
+.header-ul li{
+    display: inline-block;
+    
+}
+.header-ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav li{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Heebo';
+}
+.header-link:hover{
+    color: red;
+    transition: 0.5s ease;
+}
+.heading-1{
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 50px;
+    margin-left: 235px;
+}
+.year-heading{
+    margin-top: 14px;
+    margin-left: 249px;
+    font-family: 'Heebo';
+    font-weight: 900;
+    font-size: 18px;
+    border: 2px solid #FF7C7C;
+    border-radius: 16px;
+    width: 62px;
+    text-align: center;
+    background-color: #FF7C7C;
+    color: #fff;
+}
+.year-heading, .heading-experience{
+    display: inline-block;
+}
+.heading-experience{
+    margin-left: 17px;
+    margin-top: 14px;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+.heading-text{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 23px;
+    margin-left: 235px;
+}
+.heading-text-02{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 235px;
+}
+.img-section-01{
+    margin-top: 46px;
+    margin-left: 235px;
+}
+.section-02-heading-01{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    margin-left: 239px;
+    margin-top: 54px;
+}
+.section-02-heading-02{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 60px;
+    margin-left: 239px;
+    margin-top: 4px;
+}
+.section-02-text-01, .section-02-text-02{
+    margin-left: 239px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.img-02-02{
+    margin-top: 27px;
+}
+footer{
+    margin-top: 58.27px;
+    margin-left: 459px;
+}
+.footer-social-link{
+    margin-left: 35px;
+}
+.footer-text{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243d;
+    margin-top: 26px;
+    margin-bottom: 54px;
+    text-align: center;
+}
