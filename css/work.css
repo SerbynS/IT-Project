@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+}
+
+/* header */
+.header {
+    margin-bottom: 140px;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.menu-list-item {
+    list-style: none;
+    margin-right: 33px;
+    margin-top: 27px;
+}
+
+.menu-list-item:last-child {
+    margin-right: 0px;
+}
+
+.item-link {
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.47;
+    color: #000;
+}
+
+.item-link:hover{
+    color: #FF6464;
+}
+
+.item-link::selection
+
+{
+    color: #FF6464;
+}
+
+/* work-section */
+.work-section-wrapper{
+    width: 856px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+
+.work-title{
+    font-family: 'Heebo';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #21243D;
+    margin-bottom: 25px;
+}
+
+.work-list-item{
+    list-style: none;
+    display: flex;
+    height: 227px;
+    padding-bottom: 50px;
+    margin-bottom: 45px;
+    border-bottom: 2px solid #E0E0E0;
+}
+
+.work-list-item:last-child{
+    margin-bottom: 0px;
+}
+
+.img{
+    margin-right: 20px;
+}
+
+.li-wrapper{
+    width: 682px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.li-title{
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.47;
+    color: #21243D;
+    margin-bottom: 15px;
+}
+
+.p-wrapper{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.year{
+    margin-right: 25px;
+    font-family: 'Heebo';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 3.33;
+    color: #FFFFFF;
+    width: 62px;
+    height: 25px;
+    background-color: #142850;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 16px;
+}
+
+.year-subtitle{
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.47;
+    color: #8695A4;
+}
+
+.item-text{
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.47;
+    color: #21243D;
+}
+
+/* icons-section */
+.icons{
+    margin-bottom: 55px;
+}
+
+.bottom-site-wrapper{
+    width: 856px;
+    margin: 0 auto;
+}
+
+.icons-wrapper{
+    width: 270px;
+}
+
+.fab{
+    font-size: 30px;
+    margin-right: 35px;
+    color: #21243D;
+}
+
+.information{
+    text-align: center;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.47;
+    color: #21243D;
+    margin-top: 25px;
+}

@@ -37,6 +37,10 @@ body{
     color: #000;
 }
 
+.item-link:hover{
+    color: #FF6464;
+}
+
 /* section-in-header */
 .section-in-header{
     margin-bottom: 70px;
