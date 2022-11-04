@@ -86,7 +86,8 @@ body{
     color: #fff;
     background: #FF6464;
     border-radius: 5px;
-    border-color: #FF6464;
+    border: 3px solid #FF6464;
+    text-decoration: none;
 }
 
 .ellipse{
