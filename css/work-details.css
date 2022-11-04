@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400&family=Montserrat:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header{
+    margin-bottom: 140px;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.menu-list-item{
+    list-style: none;
+    margin-right: 33px;
+    margin-top: 27px;
+}
+
+.menu-list-item:last-child{
+    margin-right: 0px;
+}
+
+.item-link{
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.47;
+    color: #000;
+}
+
+.item-link:hover{
+    color: #FF6464;
+}
+
+/* main */
+.main-section-01{
+    width: 681px;
+    margin: 0 auto;
+}
+
+.heading-1 {
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.47;
+    color: #21243D;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.wrapper-year-experience{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.year-container{
+    margin-right: 17px;
+    background-color: #FF7C7C;
+    border-radius: 16px;
+    width: 62px;
+    height: 25px;
+}
+
+.year-heading{
+    font-family: 'Heebo';
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    line-height: 3.33;
+    position: relative;
+    bottom: 16px;
+}
+
+.heading-experience {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.47;
+    color: #000000;
+}
+
+.heading-text {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.img-section-01 {
+    margin-top: 45px;
+}
+
+.main-section-02{
+    width: 681px;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 75px;
+}
+
+.section-02-heading-01 {
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 2;
+}
+
+.section-02-heading-02 {
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 2.5;
+}
+
+.heading-experience-02{
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.47;
+    color: #000000;
+}
+
+.img-02-02 {
+    margin-top: 32px;
+}
+
+/* footer */
+.icons {
+    margin-bottom: 55px;
+}
+
+.bottom-site-wrapper {
+    width: 856px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fab {
+    font-size: 30px;
+    margin-right: 35px;
+    color: #21243D;
+}
+
+.fab:last-child {
+    margin-right: 0;
+}
+
+.information {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.47;
+    color: #21243D;
+    margin-top: 25px;
+}

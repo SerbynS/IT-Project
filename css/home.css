@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-body{
-    width: 100vw;
-}
-
 /* header */
 .header{
     margin-bottom: 140px;
@@ -183,4 +179,122 @@ body{
     line-height: 1.47;
     color: #21243D;
     margin-bottom: 15px;
+}
+
+/* michael's section */
+.featured-works {
+    margin-top: 15px;
+}
+
+.featured-works-wrapper {
+    width: 856px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+
+.heading {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.li-wrapper {
+    list-style: none;
+    display: flex;
+    height: 227px;
+    padding-bottom: 50px;
+    margin-bottom: 45px;
+    border-bottom: 2px solid #E0E0E0;
+}
+
+.work-list-item:last-child {
+    margin-bottom: 0;
+}
+
+.img-designing {
+    width: 246px;
+    height: 180px;
+    margin-right: 20px;
+}
+
+.designing-wrapper {
+    width: 682px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.designing-heading {
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 44px;
+    font-family: 'Heebo';
+    font-weight: 700;
+    color: #21243D;
+}
+
+.p-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.year-heading {
+    font-weight: 900;
+    margin-right: 25px;
+    border: 2px solid #142850;
+    border-radius: 16px;
+    width: 62px;
+    text-align: center;
+    background-color: #142850;
+    color: #fff;
+}
+
+.dashboard {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.47;
+    color: #8695A4;
+}
+
+.litext {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.47;
+    color: #21243D;
+}
+
+/* michael's footer*/
+.icons {
+    margin-bottom: 55px;
+}
+
+.bottom-site-wrapper {
+    width: 856px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fab {
+    font-size: 30px;
+    margin-right: 35px;
+    color: #21243D;
+}
+
+.fab:last-child {
+    margin-right: 0;
+}
+
+.information {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.47;
+    color: #21243D;
+    margin-top: 25px;
 }
