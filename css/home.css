@@ -86,7 +86,8 @@ body{
     color: #fff;
     background: #FF6464;
     border-radius: 5px;
-    border-color: #FF6464;
+    border: 3px solid #FF6464;
+    text-decoration: none;
 }
 
 .ellipse{
@@ -179,4 +180,103 @@ body{
     line-height: 1.47;
     color: #21243D;
     margin-bottom: 15px;
+}
+
+
+/* featured-works */
+.featured-works{
+    margin-top: 15px;
+}
+
+.featured-works-wrapper{
+    width: 856px;
+    margin: 0 auto;
+}
+
+.heading{
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    /* margin-left: 296px; */
+    margin-bottom: 15px;
+}
+.img-designing{
+    /* margin-left: 296px; */
+    margin-right: 30px;
+    margin-top: 31px;
+}
+
+.ulka{
+    margin: 0 auto;
+    /* margin-left: 296px; */
+}
+.dashboard{
+    color: #8695A4;
+}
+.li-wrapper{
+    width: 858px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.designing-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.p-wrapper{
+    display: flex;
+    margin-bottom: 17px;
+}
+
+.designing-heading{
+    /* margin-left: 570px;
+    margin-bottom: 400px; */
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 44px;
+    font-family: 'Heebo';
+    font-weight: 700;
+    color: #21243D;
+}
+.year-heading {
+    /* position: absolute;
+    left: 563px;
+    top: 1080px; */
+    font-weight: 900;
+    margin-right: 25px;
+    border: 2px solid #142850;
+    border-radius: 16px;
+    width: 62px;
+    text-align: center;
+    background-color: #142850;
+    color: #fff;
+}
+hr{
+    border: 1px solid #E0E0E0;
+    margin-top: 15px;
+}
+footer {
+    margin-top: 58.27px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-text {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #21243d;
+     margin-top: 26px;
+    text-align: center;
+}
+.footer-social-link{
+    margin-right: 35px;
 }
