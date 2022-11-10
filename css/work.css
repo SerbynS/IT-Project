@@ -1,0 +1,7 @@
+@import url(work-desktop.css);
+@import url(work-adaptiv.css);
+
+* {
+    margin: 0;
+    padding: 0;
+}
