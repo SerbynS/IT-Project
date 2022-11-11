@@ -9,145 +9,162 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/home.css">
+    <link rel="shortcut icon" href="../images/Ellipse.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>John</title>
 </head>
 <body>
     <header class="header">
         <nav class="menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+                <span></span>
+            </label>
+    
             <ul class="menu-list">
                 <li class="menu-list-item">
-                    <a href="#" class="item-link">Works</a>
+                    <a href="home.html" class="item-link">Home</a>
+                </li>
+
+                <li class="menu-list-item">
+                    <a href="work.html" class="item-link">Work</a>
                 </li>
     
                 <li class="menu-list-item">
-                    <a href="#" class="item-link">Blog</a>
+                    <a href="blog.html" class="item-link">Blog</a>
                 </li>
     
                 <li class="menu-list-item">
-                    <a href="#" class="item-link">Contact</a>
+                    <a href="work-details.html" class="item-link">Work Details</a>
                 </li>
             </ul>
         </nav>
     </header>
 
-    <section class="section-in-header">
-        <div class="header-wrapper">
-            <div class="flex-wrapper">
-                <div class="wrapper">
-                    <h1 class="main-title">Hi, I am John, Creative Technologist</h1>
-                    <p class="main-description"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
-                        consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                    <a href="../download resume file/Resume.docx" download class="button">Download Resume</a>
+    <main>
+        <section class="section-in-header">
+            <div class="header-wrapper">
+                <div class="flex-wrapper">
+                    <div class="wrapper">
+                        <h1 class="main-title">Hi, I am John, Creative Technologist</h1>
+                        <p class="main-description"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                        <div class="download-wrapper">
+                            <a href="../resume/Resume.docx" download class="button">Download Resume</a>
+                        </div>
+                    </div>
+        
+                    <img src="../images/photo-of-john.png" alt="photo" class="photo">
+                    <!-- <img src="../images/Ellipse1.png" alt="shadow" height="243" width="243" class="ellipse"> -->
                 </div>
-                
-                <img src="../img/home/Ellipse.png" alt="photo" height="243" width="243">
-                <img src="../img/home/Ellipse1.png" alt="shadow" height="243" width="243" class="ellipse">
             </div>
-        </div>
-    </section>
-
-    <section class="recent-posts">
-        <div class="recent-posts-wrapper">
-            <div class="text-wrapper">
-                <p class="posts">Recent posts</p>
-                <p class="views">View all</p>
+        </section>
+        
+        <section class="recent-posts">
+            <div class="recent-posts-wrapper">
+                <div class="text-wrapper">
+                    <p class="posts">Recent posts</p>
+                    <p class="views">View all</p>
+                </div>
+        
+                <ul class="posts-menu">
+                    <li class="posts-menu-item">
+                        <h3 class="item-title">Making a design system from scratch</h3>
+                        <h4 class="item-subtitle">12 Feb 2020 | Design, Pattern</h4>
+                        <p class="item-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            Velit officia consequat duis enim velit
+                            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </li>
+        
+                    <li class="posts-menu-item">
+                        <h3 class="item-title">Creating pixel perfect icons in Figma</h3>
+                        <h4 class="item-subtitle">12 Feb 2020 | Figma, Icon Design</h4>
+                        <p class="item-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                            Velit officia consequat duis enim velit
+                            mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </li>
+                </ul>
             </div>
-
-            <ul class="posts-menu">
-                <li class="posts-menu-item">
-                    <h3 class="item-title">Making a design system from scratch</h3>
-                    <h4 class="item-subtitle">12 Feb 2020  |  Design, Pattern</h4>
-                    <p class="item-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
-                    mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                </li>
-
-                <li class="posts-menu-item">
-                    <h3 class="item-title">Creating pixel perfect icons in Figma</h3>
-                    <h4 class="item-subtitle">12 Feb 2020 | Figma, Icon Design</h4>
-                    <p class="item-description">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
-                        mollit. Exercitation veniam consequat sunt nostrud amet.
-                    </p>
-                </li>
-            </ul>
-        </div>
-    </section>
+        </section>
+        
+        <!-- michael's section -->
+        <section class="featured-works">
+            <div class="featured-works-wrapper">
+                <h2 class="heading">Featured works</h2>
+                <ul class="ulka">
+                    <li class="li-wrapper">
+                        <img src="../images/Rectangle30.png" alt="Rectangle" class="img-designing">
+                        <div class="designing-wrapper">
+                            <h2 class="designing-heading">Designing Dashboards</h2>
+                            <div class="p-wrapper">
+                                <div class="year-heading-wrapper">
+                                    <p class="year-heading">2020</p>
+                                </div>
+                                <p class="dashboard">Dashboard</p>
+                            </div>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                                duis
+                                enim velit
+                                mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </li>
+        
+                    <li class="li-wrapper">
+                        <img src="../images/Rectangle32.png" alt="Rectangle" class="img-designing">
+                        <div class="designing-wrapper">
+                            <h2 class="designing-heading">Vibrant Portraits of 2020</h2>
+                            <div class="p-wrapper">
+                                <div class="year-heading-wrapper">
+                                    <p class="year-heading">2018</p>
+                                </div>
+                                <p class="dashboard">Illustration</p>
+                            </div>
+                            <p class="li-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                                officia consequat duis
+                                enim velit
+                                mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </li>
+        
+                    <li class="li-wrapper">
+                        <img src="../images/Rectangle34.png" alt="Rectangle" class="img-designing">
+                        <div class="designing-wrapper">
+                            <h2 class="designing-heading">36 Days of Malayalam type</h2>
+                            <div class="p-wrapper">
+                                <div class="year-heading-wrapper">
+                                    <p class="year-heading">2018</p>
+                                </div>
+                                <p class="dashboard">Typography</p>
+                            </div>
+                            <p class="li-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                                duis
+                                enim velit
+                                mollit. Exercitation veniam consequat sunt nostrud amet.
+                            </p>
+                        </div>
+                    </li>
+            </div>
+        </section>
+    </main>
     
-    <section class="featured-works">
-        <div class="featured-works-wrapper">
-            <h2 class="heading">Featured works</h2>
-            <ul class="ulka">
-                <li class="li-wrapper">
-                    <img src="../img/home/Rectangle30.jpg" alt="Rectangle" class="img-designing">
-                    <div class="designing-wrapper">
-                        <h2 class="designing-heading">Designing Dashboards</h2>
-                        <div class="p-wrapper">
-                            <p class="year-heading">2020</p>
-                            <p class="dashboard">Dashboard</p>
-                        </div>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
-                            enim velit
-                            mollit. Exercitation veniam consequat sunt nostrud amet.
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <hr>
-        <div class="featured-works-wrapper">
-            <ul class="ulka">
-                <li class="li-wrapper">
-                    <img src="../img/home/Rectangle32.jpg" alt="Rectangle" class="img-designing">
-                    <div class="designing-wrapper">
-                        <h2 class="designing-heading">Vibrant Portraits of 2020</h2>
-                        <div class="p-wrapper">
-                            <p class="year-heading">2018</p>
-                            <p class="dashboard">Illustration</p>
-                        </div>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
-                            enim velit
-                            mollit. Exercitation veniam consequat sunt nostrud amet.
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <hr>
-        <div class="featured-works-wrapper">
-            <ul class="ulka">
-                <li class="li-wrapper">
-                    <img src="../img/home/Rectangle34.jpg" alt="Rectangle" class="img-designing">
-                    <div class="designing-wrapper">
-                        <h2 class="designing-heading">36 Days of Malayalam type</h2>
-                        <div class="p-wrapper">
-                            <p class="year-heading">2018</p>
-                            <p class="dashboard">Typography</p>
-                        </div>
-                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis
-                            enim velit
-                            mollit. Exercitation veniam consequat sunt nostrud amet.
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <hr>
+    <!-- michael's footer -->
     <footer>
-        <div class="icon">
-            <a href="https://facebook.com" class="footer-social-link">
-                <img src="../img/work-details/fb.svg" alt="fb">
-            </a>
-            <a href="https://instagram.com" class="footer-social-link">
-                <img src="../img/work-details/insta.png" alt="inst">
-            </a>
-            <a href="https://twitter.com" class="footer-social-link">
-                <img src="../img/work-details/Vector.png" alt="twit">
-            </a>
-            <a href="https://linkedin.com" class="footer-social-link">
-                <img src="../img/work-details/Linkedin.png" alt="linkedin">
-            </a>
-        </div>
-        <p class="footer-text">Copyright ©2020 All rights reserved</p>
+        <section class="icons">
+            <div class="bottom-site-wrapper">
+                <div class="icons-wrapper">
+                    <a href="https://www.facebook.com/groups/522082263300223" class="fab fa-facebook-square"></a>
+                    <a href="https://www.instagram.com/john_technologist/" class="fab fa-instagram"></a>
+                    <a href="https://twitter.com" class="fab fa-twitter"></a>
+                    <a href="https://linkedin.com" class="fab fa-linkedin"></a>
+                </div>
+                <div>
+                    <h4 class="information">Copyright ©2020 All rights reserved</h4>
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
 </html>

@@ -1,0 +1,320 @@
+/* header */
+.header {
+    margin-bottom: 140px;
+}
+
+input[type="checkbox"],
+label {
+    display: none;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.menu-list-item {
+    list-style: none;
+    margin-right: 33px;
+    margin-top: 27px;
+}
+
+.menu-list-item:last-child {
+    margin-right: 0px;
+}
+
+.item-link {
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.47;
+    color: #000;
+}
+
+.item-link:hover {
+    color: #FF6464;
+}
+
+/* section-in-header */
+.section-in-header{
+    margin-bottom: 70px;
+}
+
+.header-wrapper{
+    width: 856px;
+    margin: 0 auto;
+}
+
+.flex-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.wrapper{
+    margin-right: 115px;
+}
+
+.main-title{
+    width: 500px;
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #21243D;
+    margin-bottom: 40px;
+}
+
+.main-description{
+    width: 497px;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-bottom: 40px;
+}
+
+.download-wrapper{
+    height: 40px;
+    width: 180px;
+    background: #FF6464;
+    border-radius: 5px;
+    border-color: #FF6464;
+}
+
+.button{
+    position: relative;
+    left: 8px;
+    top: 6px;
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.47;
+    color: #fff;
+}
+
+.photo{
+    width: 300px;
+}
+/* .ellipse{
+    position: relative;
+    right: 256px;
+    top: 13px;
+    border-radius: 50%;
+    background: #EDF7FA;
+    z-index: -1;
+} */
+
+/* posts */
+.recent-posts{
+    background-color: #EDF7FA;
+}
+
+.recent-posts-wrapper{
+    width: 856px;
+    margin: 0 auto;
+}
+
+.text-wrapper{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posts{
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 2.72;
+    color: #21243D;
+}
+
+.views{
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.47;
+    color: #00A8CC;
+}
+
+.posts-menu{
+    display: flex;
+    padding-bottom: 35px;
+}
+
+.posts-menu-item{
+    width: 418px;
+    background-color: #fff;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.posts-menu-item:last-child{
+    margin-right: 0px;
+}
+
+.item-title{
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 25px;
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.47;
+    color: #21243D;
+}
+
+.item-subtitle{
+    margin-top: 25px;
+    margin-left: 22px;
+    margin-right: 22px;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.47;
+    color: #21243D;
+}
+
+.item-description{
+    margin-top: 15px;
+    margin-left: 22px;
+    margin-right: 22px;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.47;
+    color: #21243D;
+    margin-bottom: 15px;
+}
+
+/* michael's section */
+.featured-works {
+    margin-top: 15px;
+}
+
+.featured-works-wrapper {
+    width: 856px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+}
+
+.heading {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+.li-wrapper {
+    list-style: none;
+    display: flex;
+    height: 227px;
+    padding-bottom: 50px;
+    margin-bottom: 45px;
+    border-bottom: 2px solid #E0E0E0;
+}
+
+.li-wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.img-designing {
+    width: 246px;
+    height: 180px;
+    margin-right: 20px;
+}
+
+.designing-wrapper {
+    width: 682px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.designing-heading {
+    margin-bottom: 16px;
+    font-size: 30px;
+    line-height: 44px;
+    font-family: 'Heebo';
+    font-weight: 700;
+    color: #21243D;
+}
+
+.p-wrapper {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.year-heading-wrapper{
+    margin-right: 25px;
+    background-color: #142850;
+    border-radius: 16px;
+    width: 62px;
+    height: 25px;
+}
+
+.year-heading {
+    font-family: 'Heebo';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 3.33;
+    color: #FFFFFF;
+    text-align: center;
+    position: relative;
+    bottom: 16px;
+}
+
+.dashboard {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.47;
+    color: #8695A4;
+}
+
+.li-text {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.47;
+    color: #21243D;
+}
+
+/* michael's footer*/
+.icons {
+    margin-bottom: 55px;
+}
+
+.bottom-site-wrapper {
+    width: 856px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fab {
+    font-size: 30px;
+    margin-right: 35px;
+    color: #21243D;
+}
+
+.fab:last-child {
+    margin-right: 0;
+}
+
+.information {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.47;
+    color: #21243D;
+    margin-top: 25px;
+}
