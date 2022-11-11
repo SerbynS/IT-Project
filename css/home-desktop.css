@@ -304,6 +304,7 @@ label {
     font-size: 30px;
     margin-right: 35px;
     color: #21243D;
+    text-decoration: none;
 }
 
 .fab:last-child {
