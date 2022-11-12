@@ -1,4 +1,4 @@
- @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     body{
         display: flex;
         flex-direction: column;
@@ -61,7 +61,7 @@
     /* section */
     .work-section-wrapper{
         margin: 0 auto;
-        width: 350px;
+        width: 344px;
         margin-bottom: 50px;
     }
 
@@ -107,4 +107,8 @@
     }
 
     /* footer */
+    .bottom-site-wrapper{
+        margin: 0 auto;
+        width: 344px;
+    }
 } 

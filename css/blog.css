@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@900&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@700&family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400&family=Montserrat:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* !!!HEADER!!! */
+.header {
+    margin-bottom: 140px;
+}
+
+input[type="checkbox"],
+label {
+    display: none;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.menu-list-item {
+    list-style: none;
+    margin-right: 33px;
+    margin-top: 27px;
+}
+
+.menu-list-item:last-child {
+    margin-right: 0px;
+}
+
+.item-link {
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.47;
+    color: #000;
+}
+
+.item-link:hover {
+    color: #FF6464;
+}
+
+/* !!!MAIN!!! */
+.heading-1 {
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1.47;
+    color: #21243D;
+    width: 500px;
+    margin-left: 235px;
+}
+
+.heading-2 {
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.47;
+    color: #21243D;
+    width: 500px;
+    margin-left: 235px;
+    margin-top: 55px;
+}
+
+.date-heading {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin-left: 235px;
+    margin-top: 16px;
+}
+
+.after-date-heading {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.section-paragraph {
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 235px;
+    margin-top: 6px;
+}
+
+hr {
+    margin-top: 29px;
+    margin-left: 236px;
+    width: 681px;
+    border: 1px solid #E0E0E0;
+}
+
+/* !!!FOOTER!!! */
+.icons {
+    margin-bottom: 55px;
+}
+
+.bottom-site-wrapper {
+    width: 856px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fab {
+    font-size: 30px;
+    margin-right: 35px;
+    color: #21243D;
+}
+
+.fab:last-child {
+    margin-right: 0;
+}
+
+.information {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.47;
+    color: #21243D;
+    margin-top: 25px;
+}
+
+footer {
+    margin-top: 53px;
+}

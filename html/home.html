@@ -15,17 +15,26 @@
 <body>
     <header class="header">
         <nav class="menu">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-btn" for="menu-toggle">
+                <span></span>
+            </label>
+    
             <ul class="menu-list">
+                <li class="menu-list-item">
+                    <a href="home.html" class="item-link">Home</a>
+                </li>
+
                 <li class="menu-list-item">
                     <a href="work.html" class="item-link">Works</a>
                 </li>
     
                 <li class="menu-list-item">
-                    <a href="#" class="item-link">Blog</a>
+                    <a href="blog.html" class="item-link">Blog</a>
                 </li>
     
                 <li class="menu-list-item">
-                    <a href="work-details.html" class="item-link">Contact</a>
+                    <a href="work-details.html" class="item-link">Work Detail</a>
                 </li>
             </ul>
         </nav>
@@ -40,11 +49,13 @@
                         <p class="main-description"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
                             Velit officia
                             consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <button type="button" class="button">Download Resume</button>
+                        <div class="download-wrapper">
+                            <a href="../download-resume-file/Resume.docx" download class="button">Download Resume</a>
+                        </div>
                     </div>
         
-                    <img src="../images/Ellipse.png" alt="photo" height="243" width="243">
-                    <img src="../images/Ellipse1.png" alt="shadow" height="243" width="243" class="ellipse">
+                    <img src="../images/photo-of-john.png" alt="photo" class="photo">
+                    <!-- <img src="../images/Ellipse1.png" alt="shadow" height="243" width="243" class="ellipse"> -->
                 </div>
             </div>
         </section>
@@ -86,7 +97,9 @@
                         <div class="designing-wrapper">
                             <h2 class="designing-heading">Designing Dashboards</h2>
                             <div class="p-wrapper">
-                                <p class="year-heading">2020</p>
+                                <div class="year-heading-wrapper">
+                                    <p class="year-heading">2020</p>
+                                </div>
                                 <p class="dashboard">Dashboard</p>
                             </div>
                             <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
@@ -102,7 +115,9 @@
                         <div class="designing-wrapper">
                             <h2 class="designing-heading">Vibrant Portraits of 2020</h2>
                             <div class="p-wrapper">
-                                <p class="year-heading">2018</p>
+                                <div class="year-heading-wrapper">
+                                    <p class="year-heading">2018</p>
+                                </div>
                                 <p class="dashboard">Illustration</p>
                             </div>
                             <p class="li-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -118,10 +133,12 @@
                         <div class="designing-wrapper">
                             <h2 class="designing-heading">36 Days of Malayalam type</h2>
                             <div class="p-wrapper">
-                                <p class="year-heading">2018</p>
+                                <div class="year-heading-wrapper">
+                                    <p class="year-heading">2018</p>
+                                </div>
                                 <p class="dashboard">Typography</p>
                             </div>
-                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                            <p class="li-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
                                 duis
                                 enim velit
                                 mollit. Exercitation veniam consequat sunt nostrud amet.
