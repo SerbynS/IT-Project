@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    margin-bottom: 140px;
+}
+
+input[type="checkbox"],
+label {
+    display: none;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.menu-list-item {
+    list-style: none;
+    margin-right: 33px;
+    margin-top: 27px;
+}
+
+.menu-list-item:last-child {
+    margin-right: 0px;
+}
+
+.item-link {
+    display: block;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.47;
+    color: #000;
+}
+
+.item-link:hover {
+    color: #FF6464;
+}
+
+main {
+    margin-bottom: 70px;
+    width: 681px;
+    margin: 0 auto;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 50px; */
+    width: 681px;
+    /* margin: 0 auto; */
+}
+
+.blog-title {
+    margin-right: 115px;
+    margin: 0px 0px 50px 0px;
+    font-family: 'Heebo';
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.blog-article {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 44px;
+    margin: 0px 0px 10px 0px;
+    color: #21243D;
+    font-family: 'Heebo';  
+}
+
+
+.blog-item {
+    list-style: none;
+    padding: 0px 0px 30px 0px;
+    margin: 0px 0px 30px 0px;
+}
+
+.blog-info {
+    display: flex;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 0px 0px 10px 0px;
+}
+
+.blog-vector {
+    margin: 0px 15px;
+    color: #21243D;
+}
+
+.blog-slogan {
+    color: #8695A4;
+}
+
+.blog-text {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 29px;
+    margin-bottom: 32px;
+}
+
+
+.icons{
+    margin-bottom: 55px;
+}
+
+.bottom-site-wrapper{
+    margin: 0 auto;
+    width: 344px; 
+    }
+
+
+.icons-wrapper{
+    width: 270px;
+    margin-left: 59px;
+    margin-right: 61px;
+}
+
+.fab{
+    font-size: 30px;
+    margin-right: 35px;
+    color: #21243D;
+}
+
+.information{
+    text-align: center;
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.47;
+    color: #21243D;
+    margin-top: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header {
+        margin-left: 300px;
+        margin-top: 50px;
+    }
+
+    label {
+        display: block;
+        height: 30px;
+        width: 30px;
+        margin-left: auto;
+        position: relative;
+    }
+
+    label:hover {
+        cursor: pointer;
+    }
+
+    label span {
+        top: 15px;
+    }
+
+    label span,
+    label span::before,
+    label span::after {
+        content: '';
+        display: block;
+        width: 25px;
+        height: 2px;
+        background: #21243D;
+        position: absolute;
+        right: 0;
+        transition: .3s;
+    }
+
+    label span::before {
+        top: -8px;
+    }
+
+    label span::after {
+        top: 8px;
+    }
+
+    .menu-list {
+        display: none;
+        margin-right: 0;
+    }
+
+    input[type="checkbox"]:checked~.menu-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main{
+    width: 339px;
+    }
+
+}
